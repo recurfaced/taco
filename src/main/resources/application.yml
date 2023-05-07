@@ -1,0 +1,21 @@
+security:
+  user:
+    name:buzz
+    password:1234
+
+taco:
+  orders:
+    pageSize:10
+
+  discount:
+    codes:
+      abcdef:
+        10
+
+spring:
+  data:
+    rest:
+      base-path: /data-api
+  datasource:
+    generate-unique-name=false
+    name=tacocloud
